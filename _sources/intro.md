@@ -28,6 +28,6 @@ get involved, and how you can link your project to the KnowLedger project.
 
 Get involved!
 
-Stuart Chalk, KnowLedger Project PI<br/>
+**Stuart Chalk, KnowLedger Project PI**<br/>
 [schalk@unf.edu](mailto:schalk@unf.edu) &bullet;
 [ORCID](https://orcid.org/0000-0002-0703-7776)
