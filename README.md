@@ -1,3 +1,7 @@
 # The Knowleger Project
 
-The repository provides information about the NSF funded Knowledger project.
+![nsflogo](book/images/nsflogo.jpg)<br/>
+**NSF Award # 2437951**
+
+The repository provides information about the NSF funded KnowLedger project.
+
