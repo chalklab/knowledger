@@ -1,7 +1,7 @@
 # The KnowLedger Concept
 
-The KnowLedger Project is about the creation of an ecosystem to support the varied and ever evolving needs of the 
-research community.  As such the project is focused on what needs to be built as part of the ecosystem, and how should
+The KnowLedger project is about the creation of an ecosystem to support the varied and ever evolving needs of the 
+research community.  As such, the project is focused on what needs to be built as part of the ecosystem, and how should
 it be run so that the research community is part of the development team and can enable what they wish for a notebook 
 that fits their research needs.
 
@@ -9,7 +9,7 @@ KnowLedger, then is designed around the needs of research, that being:
 - a place to capture research data digitally at birth (including a log of research activities)
 - an interface that allows easy annotation (text, audio, video)
 - a platform that provides data analysis and workflow tools (through integrated modules)
-- a system that integrates with online research resources (visual API’s)
+- a system that integrates with online research resources ('visual' APIs)
 - a resource that stores data semantically (for knowledge mining)
 - a notebook that allows sharing of workflows, protocols, metadata standards 
 - an ecosystem that is focused on data management, trust, and enabling collaboration
@@ -29,7 +29,7 @@ Our approach to the KnowLedger concept is to:
 - Provide documentation of all parts of the ecosystem and delineate common best practices for development of code 
   in support of resources
 - Engage with the International Unions, CODATA/ISC and scientific societies to promote and guide communities
-- Promote the FAIR principles, CARE, digital Data Management Plans (DMP’s) and open science
+- Promote the FAIR principles, CARE, digital Data Management Plans (DMPs) and open science
 
 The project goals, which are intended to focus the development of KnowLedger, are to:
 - Remove barriers to the collection of rich metadata along with experimental data, analysis and results 
@@ -47,16 +47,17 @@ integrated via a Python application, KnowLedger.  Through a set of project GitHu
 repositories we will build the ecosystem with community input using the functionality of GitHub, such as issues, projects,
 wiki and actions.  The KnowLedger application will be deployed initially as docker images so that researchers can play
 with it locally, providing feedback in the beta phase of this project.  Further deployment options for KnowLedger will
-be based on communnity feddback.
+be based on community feedback.
 
-Additionally, the data saved in KnowLedger as well as templates for data, workflows, analysis and other parts of the sytem
-will be captured in JSON-LD (JSON for Linked Data).  This is an encoding of the Resource Description Framework (RDF), 
-used to represent data semantically.  The SciData framework will be used to format the data in JSON-LD and SciData will
-be evaulated for other parts of the system to evaluate if it can be extended for all needs, or if other frameworks are
-needed.  As the data format is JSON-LD, MongoDB will be used as the database for storing KnowLedger data, and provided
-as part of the Docker container for KnowLedger, minizing technical requirements to deploy KnowLedger.
+Additionally, the data saved in KnowLedger as well as templates for data, workflows, analysis and other parts of the system
+will be captured in JSON-LD ([JSON for Linked Data](https://www.w3.org/TR/json-ld/)).  This is an encoding of the 
+Resource Description Framework (RDF), used to represent data semantically.  The SciData framework will be used to 
+format the data in JSON-LD and SciData will be evaluated for other parts of the system to evaluate if it can be extended
+for all needs, or if other frameworks are needed.  As the data format is JSON-LD, [MongoDB](https://www.mongodb.com/) 
+will be used as the database for storing KnowLedger data, and provided as part of the Docker container for KnowLedger, 
+minimizing technical requirements to deploy KnowLedger.
 
-A visual representation of the project ecosystem is below, and more information on the development of KnowLedger can be 
-found in the project proposal.
+For more information, a visual representation of the project ecosystem can be found [here](ecosystem.md).  You can also
+download a copy of the project proposal [here](files/knowledger_proposal.pdf)
 
-![logo](images/knowledger_ecosystem.jpg)
+**Stuart Chalk, KnowLedger Project PI** &bullet; [schalk@unf.edu](mailto:schalk@unf.edu) &bullet; [ORCID](https://orcid.org/0000-0002-0703-7776)

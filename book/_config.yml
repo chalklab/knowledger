@@ -32,7 +32,7 @@ html:
   use_repository_button: true
   home_page_in_navbar: false
   extra_navbar: |
-    <p>Testing</>
+    <p>Testing</p>
   extra_footer: |
     <div>
     <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow">Creative Commons Attribution-ShareAlike 4.0 International License</a></p>
