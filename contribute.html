@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Welcome to the KnowLedger Project &#8212; KnowLedger Digital Research Notebook</title>
+    <title>Contributing to KnowLedger &#8212; KnowLedger Digital Research Notebook</title>
   
   
   
@@ -57,10 +57,11 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'contribute';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="The KnowLedger Concept" href="concept.html" />
+    <link rel="next" title="Link Your Project to KnowLedger" href="projects.html" />
+    <link rel="prev" title="The KnowLedger Ecosystem" href="ecosystem.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -123,8 +124,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -143,7 +142,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -172,10 +171,10 @@
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="concept.html">The KnowLedger Concept</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ecosystem.html">The KnowLedger Ecosystem</a></li>
-<li class="toctree-l1"><a class="reference internal" href="contribute.html">Contributing to KnowLedger</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Contributing to KnowLedger</a></li>
 <li class="toctree-l1"><a class="reference internal" href="projects.html">Link Your Project to KnowLedger</a></li>
 <li class="toctree-l1"><a class="reference internal" href="postdoc.html">Hiring: Project Postdoc!</a></li>
 <li class="toctree-l1"><a class="reference internal" href="origin.html">Origin Story</a></li>
@@ -250,7 +249,7 @@
       
       
       
-      <li><a href="https://github.com/chalklab/knowledger/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/chalklab/knowledger/issues/new?title=Issue%20on%20page%20%2Fcontribute.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -280,7 +279,7 @@
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="_sources/contribute.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -351,7 +350,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -362,11 +363,24 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to the KnowLedger Project</h1>
+    <h1>Contributing to KnowLedger</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-partner">Project Partner</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#joining-a-working-group">Joining a Working Group</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing-to-the-knowledger-codebase">Contributing to the KnowLedger Codebase</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-redeveloping-software-tools-for-ecosystem-integration">Developing/Redeveloping Software/Tools for Ecosystem Integration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#being-an-advocate-for-knowledger-in-your-community">Being an Advocate for KnowLedger in Your Community</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interested-in-scientific-data-management-education">Interested in Scientific Data Management Education?</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -376,33 +390,51 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="welcome-to-the-knowledger-project">
-<h1>Welcome to the KnowLedger Project<a class="headerlink" href="#welcome-to-the-knowledger-project" title="Link to this heading">#</a></h1>
-<p>This website describes the upcoming NSF funded project “<a class="reference external" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2437951">KnowLedger: An Open Digital Notebook for Research Data Management</a>”,
-a project to develop an open research notebook for the scientific community (2025-2026). The project was developed out
-of a decade of research on the idea that an open, digital notebook is needed across many research communities.  Combined
-with the movement toward open science, and the advent and interest in the FAIR (Findable, Accessible, Interoperable, and
-Reusable) principles, technologically all the pieces of this complicated puzzle are now available.  The focus of this
-project then is to pull them together into a single (but configurable) system.</p>
-<p>Given the scope of this project it is important that the project put researchers first, creating a system that allows
-researchers to build an instance of KnowLedger that fits their needs, workflows, and requirements for data storage,
-security, and openness.  The project is thus based on the following observations of the research enterprise:</p>
-<ul class="simple">
-<li><p>Researchers need tailored solutions that fit their workflows and enable research progress</p></li>
-<li><p>The cost of such solutions should be as cheap as possible and preferably free</p></li>
-<li><p>Any solution needs to ensure trust in the integrity of the stored data…</p></li>
-<li><p>…and give a researcher (or the group PI) complete control of how, when and if data is made open</p></li>
-<li><p>The research community must be integral to the development of any such RDM system</p></li>
-</ul>
-<p>The last point is especially important because the project team cannot anticipate what each researcher needs, so the
-research community must be involved in the project and drive the tools, resources, data models, data format, that can be
-used/written/accessed in the system.  The project therefore invites anyone in the research community to get involved so
-the project knows what it needs to support at the system level.</p>
-<p>More information about the KnowLedger implementation/development is available on left, as are opportunities where you can
-get involved, and how you can link your project to the KnowLedger project.</p>
-<p><strong>Stuart Chalk, KnowLedger Project PI</strong> • <a class="reference external" href="mailto:schalk&#37;&#52;&#48;unf&#46;edu">schalk<span>&#64;</span>unf<span>&#46;</span>edu</a> • <a class="reference external" href="https://orcid.org/0000-0002-0703-7776">ORCID</a></p>
-<div class="toctree-wrapper compound">
+  <section id="contributing-to-knowledger">
+<h1>Contributing to KnowLedger<a class="headerlink" href="#contributing-to-knowledger" title="Link to this heading">#</a></h1>
+<p>There are many ways you can contribute to the KnowLedger Project.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This project does not start till January 2025, so the GitHub repositories mentioned below may not be available yet.</p>
 </div>
+<section id="project-partner">
+<h2>Project Partner<a class="headerlink" href="#project-partner" title="Link to this heading">#</a></h2>
+<p>Do you want to support this project by partnering with KnowLedger?  If so, please contact the PI (below)
+about how you would like to support the effort.</p>
+</section>
+<section id="joining-a-working-group">
+<h2>Joining a Working Group<a class="headerlink" href="#joining-a-working-group" title="Link to this heading">#</a></h2>
+<p>Working groups (WG) will be formed for each of the GitHub repositories in the ecosystem.  Just apply to be a collaborator
+on the repository supporting your interest and take part in meetings, sprints, and other WG activities.</p>
+</section>
+<section id="contributing-to-the-knowledger-codebase">
+<h2>Contributing to the KnowLedger Codebase<a class="headerlink" href="#contributing-to-the-knowledger-codebase" title="Link to this heading">#</a></h2>
+<p>Are you a Python developer?  If so, we could really use your expertise related to the KnowLedger Python codebase.  If
+you more focused on web technology, MongoDB, Docker, backup system we also need your help too.  Read more about how you
+can help on our project development repositories.</p>
+</section>
+<section id="developing-redeveloping-software-tools-for-ecosystem-integration">
+<h2>Developing/Redeveloping Software/Tools for Ecosystem Integration<a class="headerlink" href="#developing-redeveloping-software-tools-for-ecosystem-integration" title="Link to this heading">#</a></h2>
+<p>If you have developed software, built a research tool, or are a developer of a research repository or important data
+resource admin, think about how your project might be integrated into the KnowLedger ecosystem.  Learn how to do this
+my getting involved with the ‘<a class="reference internal" href="ecosystem.html#ecosystem-repositories"><span class="std std-ref">KnowMo</span></a>’ working group as a module developer.</p>
+</section>
+<section id="being-an-advocate-for-knowledger-in-your-community">
+<h2>Being an Advocate for KnowLedger in Your Community<a class="headerlink" href="#being-an-advocate-for-knowledger-in-your-community" title="Link to this heading">#</a></h2>
+<p>This project will only succeed if research communities see the value in the development of KnowLedger for their
+community.  As this project is only two years in duration, we need advocates for this project that will foster
+interest, communicate developments in the project, and run/host meetings that can brainstorm what tooling, workflows,
+and formats should be supported.  Champions across research disciplines will be co-ordinated through the
+‘<a class="reference internal" href="ecosystem.html#ecosystem-repositories"><span class="std std-ref">KnowUs</span></a>’ GitHub repository.</p>
+</section>
+<section id="interested-in-scientific-data-management-education">
+<h2>Interested in Scientific Data Management Education?<a class="headerlink" href="#interested-in-scientific-data-management-education" title="Link to this heading">#</a></h2>
+<p>As much as this project is focused on enabling research scientists being more productive and reproducible in research,
+the KnowLedger platform is an excellent place to excite and mentor the next generation of scientists.  Join the
+‘<a class="reference internal" href="ecosystem.html#ecosystem-repositories"><span class="std std-ref">KnowHow</span></a>’ WG as a developer of teaching material integrated into KnowLedger.</p>
+<p>If you have other ideas about how you can contribute, please contact the PI!</p>
+<p><strong>Stuart Chalk, KnowLedger Project PI</strong> • <a class="reference external" href="mailto:schalk&#37;&#52;&#48;unf&#46;edu">schalk<span>&#64;</span>unf<span>&#46;</span>edu</a> • <a class="reference external" href="https://orcid.org/0000-0002-0703-7776">ORCID</a></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -435,12 +467,21 @@ get involved, and how you can link your project to the KnowLedger project.</p>
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="ecosystem.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">The KnowLedger Ecosystem</p>
+      </div>
+    </a>
     <a class="right-next"
-       href="concept.html"
+       href="projects.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">The KnowLedger Concept</p>
+        <p class="prev-next-title">Link Your Project to KnowLedger</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -450,6 +491,26 @@ get involved, and how you can link your project to the KnowLedger project.</p>
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-partner">Project Partner</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#joining-a-working-group">Joining a Working Group</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing-to-the-knowledger-codebase">Contributing to the KnowLedger Codebase</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-redeveloping-software-tools-for-ecosystem-integration">Developing/Redeveloping Software/Tools for Ecosystem Integration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#being-an-advocate-for-knowledger-in-your-community">Being an Advocate for KnowLedger in Your Community</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interested-in-scientific-data-management-education">Interested in Scientific Data Management Education?</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Welcome to the KnowLedger Project &#8212; KnowLedger Digital Research Notebook</title>
+    <title>Link Your Project to KnowLedger &#8212; KnowLedger Digital Research Notebook</title>
   
   
   
@@ -57,10 +57,11 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'projects';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="The KnowLedger Concept" href="concept.html" />
+    <link rel="next" title="Hiring: Project Postdoc!" href="postdoc.html" />
+    <link rel="prev" title="Contributing to KnowLedger" href="contribute.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -123,8 +124,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -143,7 +142,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -172,11 +171,11 @@
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="concept.html">The KnowLedger Concept</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ecosystem.html">The KnowLedger Ecosystem</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contribute.html">Contributing to KnowLedger</a></li>
-<li class="toctree-l1"><a class="reference internal" href="projects.html">Link Your Project to KnowLedger</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Link Your Project to KnowLedger</a></li>
 <li class="toctree-l1"><a class="reference internal" href="postdoc.html">Hiring: Project Postdoc!</a></li>
 <li class="toctree-l1"><a class="reference internal" href="origin.html">Origin Story</a></li>
 </ul>
@@ -250,7 +249,7 @@
       
       
       
-      <li><a href="https://github.com/chalklab/knowledger/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/chalklab/knowledger/issues/new?title=Issue%20on%20page%20%2Fprojects.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -280,7 +279,7 @@
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="_sources/projects.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -351,7 +350,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -362,11 +363,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Welcome to the KnowLedger Project</h1>
+    <h1>Link Your Project to KnowLedger</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#current-statistics-from-knowgrow">Current statistics from KnowGrow</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -376,33 +385,17 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="welcome-to-the-knowledger-project">
-<h1>Welcome to the KnowLedger Project<a class="headerlink" href="#welcome-to-the-knowledger-project" title="Link to this heading">#</a></h1>
-<p>This website describes the upcoming NSF funded project “<a class="reference external" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2437951">KnowLedger: An Open Digital Notebook for Research Data Management</a>”,
-a project to develop an open research notebook for the scientific community (2025-2026). The project was developed out
-of a decade of research on the idea that an open, digital notebook is needed across many research communities.  Combined
-with the movement toward open science, and the advent and interest in the FAIR (Findable, Accessible, Interoperable, and
-Reusable) principles, technologically all the pieces of this complicated puzzle are now available.  The focus of this
-project then is to pull them together into a single (but configurable) system.</p>
-<p>Given the scope of this project it is important that the project put researchers first, creating a system that allows
-researchers to build an instance of KnowLedger that fits their needs, workflows, and requirements for data storage,
-security, and openness.  The project is thus based on the following observations of the research enterprise:</p>
-<ul class="simple">
-<li><p>Researchers need tailored solutions that fit their workflows and enable research progress</p></li>
-<li><p>The cost of such solutions should be as cheap as possible and preferably free</p></li>
-<li><p>Any solution needs to ensure trust in the integrity of the stored data…</p></li>
-<li><p>…and give a researcher (or the group PI) complete control of how, when and if data is made open</p></li>
-<li><p>The research community must be integral to the development of any such RDM system</p></li>
-</ul>
-<p>The last point is especially important because the project team cannot anticipate what each researcher needs, so the
-research community must be involved in the project and drive the tools, resources, data models, data format, that can be
-used/written/accessed in the system.  The project therefore invites anyone in the research community to get involved so
-the project knows what it needs to support at the system level.</p>
-<p>More information about the KnowLedger implementation/development is available on left, as are opportunities where you can
-get involved, and how you can link your project to the KnowLedger project.</p>
-<p><strong>Stuart Chalk, KnowLedger Project PI</strong> • <a class="reference external" href="mailto:schalk&#37;&#52;&#48;unf&#46;edu">schalk<span>&#64;</span>unf<span>&#46;</span>edu</a> • <a class="reference external" href="https://orcid.org/0000-0002-0703-7776">ORCID</a></p>
-<div class="toctree-wrapper compound">
-</div>
+  <section id="link-your-project-to-knowledger">
+<h1>Link Your Project to KnowLedger<a class="headerlink" href="#link-your-project-to-knowledger" title="Link to this heading">#</a></h1>
+<p>We are interested in hearing about open-source tools, specifications, vocabularies etc. that can be integrated into the
+KnowLedger ecosystem.  These can be at any stage of development and usable in either the KnowLedger Python codebase, or
+configurable as a modular component for use by researchers as part of their workflow.</p>
+<p>This an important activity as the breath of research communities that might use KnowLedger is large and very difficult
+for us to curate.  So, help us curate it by posting an issue to the KnowGrow GitHub repository.</p>
+<section id="current-statistics-from-knowgrow">
+<h2>Current statistics from KnowGrow<a class="headerlink" href="#current-statistics-from-knowgrow" title="Link to this heading">#</a></h2>
+<p><em>Not currently available</em></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -435,12 +428,21 @@ get involved, and how you can link your project to the KnowLedger project.</p>
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="contribute.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Contributing to KnowLedger</p>
+      </div>
+    </a>
     <a class="right-next"
-       href="concept.html"
+       href="postdoc.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">The KnowLedger Concept</p>
+        <p class="prev-next-title">Hiring: Project Postdoc!</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -450,6 +452,21 @@ get involved, and how you can link your project to the KnowLedger project.</p>
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#current-statistics-from-knowgrow">Current statistics from KnowGrow</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

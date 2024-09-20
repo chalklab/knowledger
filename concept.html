@@ -60,7 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'concept';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Contribute to KnowLedger" href="getting_involved.html" />
+    <link rel="next" title="The KnowLedger Ecosystem" href="ecosystem.html" />
     <link rel="prev" title="Welcome to the KnowLedger Project" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -173,8 +173,11 @@
     <div class="bd-toc-item navbar-nav active">
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">The KnowLedger Concept</a></li>
-<li class="toctree-l1"><a class="reference internal" href="getting_involved.html">Contribute to KnowLedger</a></li>
-<li class="toctree-l1"><a class="reference internal" href="link_your_project.html">Link Your Project to KnowLedger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ecosystem.html">The KnowLedger Ecosystem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contribute.html">Contributing to KnowLedger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects.html">Link Your Project to KnowLedger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="postdoc.html">Hiring: Project Postdoc!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="origin.html">Origin Story</a></li>
 </ul>
 
     </div>
@@ -374,8 +377,8 @@ document.write(`
                   
   <section id="the-knowledger-concept">
 <h1>The KnowLedger Concept<a class="headerlink" href="#the-knowledger-concept" title="Link to this heading">#</a></h1>
-<p>The KnowLedger Project is about the creation of an ecosystem to support the varied and ever evolving needs of the
-research community.  As such the project is focused on what needs to be built as part of the ecosystem, and how should
+<p>The KnowLedger project is about the creation of an ecosystem to support the varied and ever evolving needs of the
+research community.  As such, the project is focused on what needs to be built as part of the ecosystem, and how should
 it be run so that the research community is part of the development team and can enable what they wish for a notebook
 that fits their research needs.</p>
 <p>KnowLedger, then is designed around the needs of research, that being:</p>
@@ -383,7 +386,7 @@ that fits their research needs.</p>
 <li><p>a place to capture research data digitally at birth (including a log of research activities)</p></li>
 <li><p>an interface that allows easy annotation (text, audio, video)</p></li>
 <li><p>a platform that provides data analysis and workflow tools (through integrated modules)</p></li>
-<li><p>a system that integrates with online research resources (visual API’s)</p></li>
+<li><p>a system that integrates with online research resources (‘visual’ APIs)</p></li>
 <li><p>a resource that stores data semantically (for knowledge mining)</p></li>
 <li><p>a notebook that allows sharing of workflows, protocols, metadata standards</p></li>
 <li><p>an ecosystem that is focused on data management, trust, and enabling collaboration</p></li>
@@ -404,7 +407,7 @@ GitHub repositories that can be centrally linked though persistent identifiers</
 <li><p>Provide documentation of all parts of the ecosystem and delineate common best practices for development of code
 in support of resources</p></li>
 <li><p>Engage with the International Unions, CODATA/ISC and scientific societies to promote and guide communities</p></li>
-<li><p>Promote the FAIR principles, CARE, digital Data Management Plans (DMP’s) and open science</p></li>
+<li><p>Promote the FAIR principles, CARE, digital Data Management Plans (DMPs) and open science</p></li>
 </ul>
 <p>The project goals, which are intended to focus the development of KnowLedger, are to:</p>
 <ul class="simple">
@@ -423,16 +426,17 @@ integrated via a Python application, KnowLedger.  Through a set of project GitHu
 repositories we will build the ecosystem with community input using the functionality of GitHub, such as issues, projects,
 wiki and actions.  The KnowLedger application will be deployed initially as docker images so that researchers can play
 with it locally, providing feedback in the beta phase of this project.  Further deployment options for KnowLedger will
-be based on communnity feddback.</p>
-<p>Additionally, the data saved in KnowLedger as well as templates for data, workflows, analysis and other parts of the sytem
-will be captured in JSON-LD (JSON for Linked Data).  This is an encoding of the Resource Description Framework (RDF),
-used to represent data semantically.  The SciData framework will be used to format the data in JSON-LD and SciData will
-be evaulated for other parts of the system to evaluate if it can be extended for all needs, or if other frameworks are
-needed.  As the data format is JSON-LD, MongoDB will be used as the database for storing KnowLedger data, and provided
-as part of the Docker container for KnowLedger, minizing technical requirements to deploy KnowLedger.</p>
-<p>A visual representation of the project ecosystem is below, and more information on the development of KnowLedger can be
-found in the project proposal.</p>
-<p><img alt="logo" src="_images/knowledger_ecosystem.jpg" /></p>
+be based on community feedback.</p>
+<p>Additionally, the data saved in KnowLedger as well as templates for data, workflows, analysis and other parts of the system
+will be captured in JSON-LD (<a class="reference external" href="https://www.w3.org/TR/json-ld/">JSON for Linked Data</a>).  This is an encoding of the
+Resource Description Framework (RDF), used to represent data semantically.  The SciData framework will be used to
+format the data in JSON-LD and SciData will be evaluated for other parts of the system to evaluate if it can be extended
+for all needs, or if other frameworks are needed.  As the data format is JSON-LD, <a class="reference external" href="https://www.mongodb.com/">MongoDB</a>
+will be used as the database for storing KnowLedger data, and provided as part of the Docker container for KnowLedger,
+minimizing technical requirements to deploy KnowLedger.</p>
+<p>For more information, a visual representation of the project ecosystem can be found <a class="reference internal" href="ecosystem.html"><span class="std std-doc">here</span></a>.  You can also
+download a copy of the project proposal <a class="reference download internal" download="" href="_downloads/dd4eacce40da376aa3db3842e7c27e80/knowledger_proposal.pdf"><span class="xref download myst">here</span></a></p>
+<p><strong>Stuart Chalk, KnowLedger Project PI</strong> • <a class="reference external" href="mailto:schalk&#37;&#52;&#48;unf&#46;edu">schalk<span>&#64;</span>unf<span>&#46;</span>edu</a> • <a class="reference external" href="https://orcid.org/0000-0002-0703-7776">ORCID</a></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -475,11 +479,11 @@ found in the project proposal.</p>
       </div>
     </a>
     <a class="right-next"
-       href="getting_involved.html"
+       href="ecosystem.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Contribute to KnowLedger</p>
+        <p class="prev-next-title">The KnowLedger Ecosystem</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
