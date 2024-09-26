@@ -1,7 +1,6 @@
-# The KnowLedger Project
+# KnowLedger: An US NSF funded project**
 
 ![nsflogo](images/nsflogo.jpg)<br/>
-**KnowLedger: An US NSF funded project**
 
 The repository provides information about this US National Science Foundation (NSF) funded project<br/>
 "[EAGER: CI PAOS: KnowLedger: An Open Digital Notebook for Research Data Management](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2437951)".
