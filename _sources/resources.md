@@ -1,0 +1,28 @@
+# Resources for KnowLedger
+
+There are many activities/organizations that could be usefully integrated into KnowLedger.
+If there are others than in this list, please send them to [Stuart Chalk](mailto:schalk@unf.edu)
+
+- [Center for Open Science (COS)](https://www.cos.io/)/[Open Science Framework](https://osf.io/)
+- [CODATA Research Data Management Terminology (RDMT)](https://codata.org/new-machine-actionable-rdm-terminology-launched/)
+- [The Cross Domain Interoperability Framework (CDIF)](https://worldfair-project.eu/cross-domain-interoperability-framework/)
+- [Crossiant](https://research.google/blog/croissant-a-metadata-format-for-ml-ready-datasets/)
+- [Crossref](https://www.crossref.org/)
+- [Datacite](https://datacite.org/)
+- [Data Management Plan (DMP) Tool](https://dmptool.org/)
+- [FAIR (Findable, Accessible, Interoperability, Reusability)](https://www.go-fair.org/)
+- [Hypothesis](https://web.hypothes.is/)
+- [Make Data Count](https://makedatacount.org/)
+- [NIST RDaF](https://www.nist.gov/programs-projects/research-data-framework-rdaf)
+- [International Standard Name Identifier (ISNI)](https://isni.org/)
+- [identifiers.org](http://identifiers.org/)
+- Ontology Lookup Services: [BioPortal](https://bioportal.bioontology.org/), [EMBL OLS](https://www.ebi.ac.uk/ols)
+- [OpenAPI](https://www.openapis.org/)
+- [Open Forum for AI](https://www.cmu.edu/engin/programs/ofai.html)
+- [ORCID](https://orcid.org/)
+- [Research Data Alliance](https://www.rd-alliance.org/): [Recommendations](https://www.rd-alliance.org/outputs/)
+- [Research Organization Registry (ROR)](https://ror.org/)
+- [SI Reference Point](https://si-digital-framework.org/SI?lang=en)
+- [SciContext](https://github.com/ChalkLab/SciContext)
+- [US PID Strategy](https://zenodo.org/records/10811008) ([Videos](https://www.youtube.com/playlist?list=PLqi-7yMgvZy_W-EkVUvBEmw6uzyr2kojc))
+- [World Data System](https://worlddatasystem.org/)
