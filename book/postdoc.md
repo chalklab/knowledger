@@ -27,7 +27,7 @@ project ecosystem design and implementation, iii) coordinator of working groups,
 presentations and publications.  Additional grant applications are also anticipated, and contribution to these 
 proposals is also expected.
 
-Interested applicants can apply for the position [here]().  The application packet includes:
+Interested applicants can apply for the position [here](https://unf.wd5.myworkdayjobs.com/unfjobs/job/Jacksonville-FL/Postdoctoral-Associate_JR100862).  The application packet includes:
 - Current and Comprehensive CV
 - Unofficial Transcripts
 - Three recommendation letters upon request
