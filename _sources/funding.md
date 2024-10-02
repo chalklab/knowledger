@@ -1,4 +1,4 @@
-# KnowLedger: An US NSF funded project**
+# KnowLedger: An NSF funded project
 
 ![nsflogo](images/nsflogo.jpg)<br/>
 
