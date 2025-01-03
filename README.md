@@ -6,10 +6,9 @@
 The repository provides information about the NSF funded KnowLedger project<br/>
 "EAGER: CI PAOS: KnowLedger: An Open Digital Notebook for Research Data Management".
 
-As of December 11, 2024 this repository is no longer being used to promote this project.
-This content has been moved to the following website
-[https://knowledgerproject.github.io](https://knowledgerproject.github.io) and GitHub repository 
-[https://github.com/KnowLedgerProject/KnowLedgerProject.github.io](https://github.com/KnowLedgerProject/KnowLedgerProject.github.io)
+As of January 2, 2025 this repository is no longer being used to promote this project. This content has been moved to the 
+following website [https://KnowLedgerDRM.github.io](https://knowledgerdrm.github.io) and GitHub repository 
+[https://github.com/KnowLedgerDRM/KnowLedgerDRM.github.io](https://github.com/KnowLedgerDRM/KnowLedgerDRM.github.io)
 
 **Stuart Chalk, KnowLedger Project PI** &bullet;
 [schalk@unf.edu](mailto:schalk@unf.edu) &bullet;
